@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Fredoka';
+  overflow: hidden;
+}
+
+/* ====== CABEÇALHO ====== */
+.conteinerCabeçalho {
+  display: flex;
+  height: 60px;
+  background-color: white;
+  padding: 0 30px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo{
+  width: 200px;
+  height: auto;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #2e7d32;
+  font-weight: bold;
+  font-size: 25px;
+  transition: color 0.3s ease;
+}
+/* ====== FIM CABEÇALHO ====== */
+
+.conteinerPrincipal {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #ffe4cc; 
+}
+
+.tituloContato {
+  color: #f57c00;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 30px 50px 10px;
+}
+
+.formularioContato {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 50px;
+  flex: 1;
+}
+
+.formularioContato label {
+  color: #2e7d32;
+  font-weight: bold;
+  }
+
+.formularioContato input,
+.formularioContato textarea {
+  background-color: whitesmoke;
+  border-color: black;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.linhaDupla {
+  display: flex;
+  flex-direction:row;
+  gap: 20px;
+}
+
+.linhaDupla .campo {
+  flex: 1;
+}
+
+textarea {
+  height: 200px;
+  resize: none;
+}
+
+.mensagem input{
+  background-color: whitesmoke;
+  border-color: black;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 10px;
+  font-size: 16px;
+  height: 200px;
+  
+}
